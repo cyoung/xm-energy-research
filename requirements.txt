@@ -1,0 +1,6 @@
+# XM data client (API XM + API SIMEM)
+pydataxm==0.3.17
+
+# pydataxm 0.3.17 uses pandas 2.x idioms (freq='M', errors='ignore') that are
+# removed in pandas 3.0, so pin below 3.0 until upstream is updated.
+pandas>=2.2.3,<3.0
